@@ -1,7 +1,7 @@
 # Class Code: 9372
 # Team 2: Ruby
 # Oka, Shaun Gerald
-# https://www.onlinegdb.com/online_ruby_compiler
+# https://onecompiler.com/ruby/43vpmvc4n
 
 # reads a positive integer
 def read_int
