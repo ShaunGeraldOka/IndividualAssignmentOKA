@@ -8,7 +8,7 @@ def read_int
   loop do
     begin
       num = Integer(gets.chomp)
-      if num == 0 or num < 0
+      if num <= 0
         raise ArgumentError
       end
       return num
