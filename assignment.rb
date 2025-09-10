@@ -13,8 +13,8 @@ def read_int
       end
       return num
     rescue ArgumentError
-      puts "Error: input may not be a valid positive integer"
-      puts "Please enter a valid input:"
+      puts("Error: input may not be a valid positive integer")
+      puts("Please enter a valid input:")
     end
   end
 end
@@ -56,16 +56,16 @@ def count_even(input)
   count_parity(input, "even")
 end
 
-# Main
-puts "Please enter a number:"
+# main
+puts("Please enter a number:")
 num = read_int
-reversed = reverse num
-odd = count_odd reversed
-even = count_even reversed
-parity = check_parity reversed
+reversed = reverse(num)
+odd = count_odd(reversed)
+even = count_even(reversed)
+parity = check_parity(reversed)
 
-puts "Original Number: #{num}"
-puts "Reversed Number: #{reversed}"
-puts "Count of Odd Digits: #{odd}"
-puts "Count of Even Digits: #{even}"
-puts "Parity of '#{reversed}': #{parity}"
+puts("Original Number: #{num}")
+puts("Reversed Number: #{reversed}")
+puts("Count of Odd Digits: #{odd}")
+puts("Count of Even Digits: #{even}")
+puts("Parity of '#{reversed}': #{parity}")
